@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		50524D661E37A01E0052639D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524D651E37A01E0052639D /* AppDelegate.swift */; };
 		50524D681E37A01E0052639D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524D671E37A01E0052639D /* ViewController.swift */; };
-		50524D6B1E37A01E0052639D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50524D691E37A01E0052639D /* Main.storyboard */; };
 		50524D6D1E37A01E0052639D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50524D6C1E37A01E0052639D /* Assets.xcassets */; };
 		50524D701E37A01E0052639D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50524D6E1E37A01E0052639D /* LaunchScreen.storyboard */; };
 		50524D7B1E37A01E0052639D /* ios_kinfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524D7A1E37A01E0052639D /* ios_kinfinityTests.swift */; };
 		50524D861E37A01E0052639D /* ios_kinfinityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524D851E37A01E0052639D /* ios_kinfinityUITests.swift */; };
+		50524D961E37A2470052639D /* infscroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524D951E37A2470052639D /* infscroll.swift */; };
+		50524D9C1E37AA9D0052639D /* mspe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50524D971E37AA9D0052639D /* mspe.jpg */; };
+		50524D9D1E37AA9D0052639D /* mspd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50524D981E37AA9D0052639D /* mspd.jpg */; };
+		50524D9E1E37AA9D0052639D /* mspc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50524D991E37AA9D0052639D /* mspc.jpg */; };
+		50524D9F1E37AA9D0052639D /* mspb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50524D9A1E37AA9D0052639D /* mspb.jpg */; };
+		50524DA01E37AA9D0052639D /* mspa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50524D9B1E37AA9D0052639D /* mspa.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		50524D621E37A01E0052639D /* ios-kinfinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-kinfinity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50524D651E37A01E0052639D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50524D671E37A01E0052639D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50524D6A1E37A01E0052639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50524D6C1E37A01E0052639D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50524D6F1E37A01E0052639D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50524D711E37A01E0052639D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		50524D811E37A01E0052639D /* ios-kinfinityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-kinfinityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50524D851E37A01E0052639D /* ios_kinfinityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_kinfinityUITests.swift; sourceTree = "<group>"; };
 		50524D871E37A01E0052639D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50524D951E37A2470052639D /* infscroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = infscroll.swift; path = ../../mappy/mappy/infscroll.swift; sourceTree = "<group>"; };
+		50524D971E37AA9D0052639D /* mspe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mspe.jpg; path = ../../../../../../Screenshots/mspe.jpg; sourceTree = "<group>"; };
+		50524D981E37AA9D0052639D /* mspd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mspd.jpg; path = ../../../../../../Screenshots/mspd.jpg; sourceTree = "<group>"; };
+		50524D991E37AA9D0052639D /* mspc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mspc.jpg; path = ../../../../../../Screenshots/mspc.jpg; sourceTree = "<group>"; };
+		50524D9A1E37AA9D0052639D /* mspb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mspb.jpg; path = ../../../../../../Screenshots/mspb.jpg; sourceTree = "<group>"; };
+		50524D9B1E37AA9D0052639D /* mspa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mspa.jpg; path = ../../../../../../Screenshots/mspa.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 			children = (
 				50524D651E37A01E0052639D /* AppDelegate.swift */,
 				50524D671E37A01E0052639D /* ViewController.swift */,
-				50524D691E37A01E0052639D /* Main.storyboard */,
 				50524D6C1E37A01E0052639D /* Assets.xcassets */,
 				50524D6E1E37A01E0052639D /* LaunchScreen.storyboard */,
 				50524D711E37A01E0052639D /* Info.plist */,
+				50524D951E37A2470052639D /* infscroll.swift */,
+				50524D971E37AA9D0052639D /* mspe.jpg */,
+				50524D981E37AA9D0052639D /* mspd.jpg */,
+				50524D991E37AA9D0052639D /* mspc.jpg */,
+				50524D9A1E37AA9D0052639D /* mspb.jpg */,
+				50524D9B1E37AA9D0052639D /* mspa.jpg */,
 			);
 			path = "ios-kinfinity";
 			sourceTree = "<group>";
@@ -236,8 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				50524D701E37A01E0052639D /* LaunchScreen.storyboard in Resources */,
+				50524D9F1E37AA9D0052639D /* mspb.jpg in Resources */,
+				50524D9E1E37AA9D0052639D /* mspc.jpg in Resources */,
+				50524D9C1E37AA9D0052639D /* mspe.jpg in Resources */,
 				50524D6D1E37A01E0052639D /* Assets.xcassets in Resources */,
-				50524D6B1E37A01E0052639D /* Main.storyboard in Resources */,
+				50524D9D1E37AA9D0052639D /* mspd.jpg in Resources */,
+				50524DA01E37AA9D0052639D /* mspa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +283,7 @@
 			files = (
 				50524D681E37A01E0052639D /* ViewController.swift in Sources */,
 				50524D661E37A01E0052639D /* AppDelegate.swift in Sources */,
+				50524D961E37A2470052639D /* infscroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +319,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50524D691E37A01E0052639D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50524D6A1E37A01E0052639D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50524D6E1E37A01E0052639D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,9 +428,10 @@
 				DEVELOPMENT_TEAM = YW5NS9LR9C;
 				INFOPLIST_FILE = "ios-kinfinity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ocorp.ios-kinfinity";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kashkhan.ios-kinfinity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,9 +442,10 @@
 				DEVELOPMENT_TEAM = YW5NS9LR9C;
 				INFOPLIST_FILE = "ios-kinfinity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ocorp.ios-kinfinity";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kashkhan.ios-kinfinity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
